@@ -1,0 +1,188 @@
+*{
+    font-family: sans-serif;
+}
+/* first page css */
+body {
+   background-color: rgb(34, 34, 34); 
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 101%;
+    height: 100%;
+    margin: -8px;
+}
+.first{
+    background-image: url(background.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 40rem;
+    width: 100%;
+}
+.first img{
+    margin-left: 12%;
+    margin-top: -2%;
+    height: 140px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+.nav button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60%;
+    width: 80px;
+    height: 35px;
+    background-color: rgb(239, 3, 3);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7%;
+    color: white;
+}
+.description2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 27%;
+    gap: 8px;
+}
+.description2 #email{
+    width: 37%;
+    height: 8vh;
+    background-color: transparent;
+    border: 1.5px solid rgba(236, 236, 236, 0.737);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+.description2 #button{
+    width: 23%;
+    height: 9vh;
+    background-color: red;
+    color: white;
+    border: 1px gray;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+/* second page css */
+.second{
+    width: 100%;
+    height: 32rem;
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+    background-color: black;
+    color: white;
+}
+.second .description3{
+    margin-left: 15%;
+    margin-top: 10%;
+}
+.second img{
+    margin-top: 10%;
+}
+
+/* Third page css */
+
+.third{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+    background-color: black;
+    color: white;
+}
+.third .description4{
+    margin-left: -10%;
+    margin-top: 4%;
+}
+.third img{
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+/* Fourth Page Css */
+
+.fourth{
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+.fourth span{
+    margin-left: 20%;
+    margin-top: 3% ;
+}
+
+/* Fifth Page Css */
+
+.fifth {
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    background-color: black;
+    color: white;
+}
+.fifth .description5{
+    margin-top: 4%;
+}
+.fifth img{
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+
+/* Sixth Page Css */
+.sixth{
+    align-items: center;
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.sixth #questions{
+    padding-left: 20px;
+    width: 60rem;
+    height: 20vh;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    
+}
+.description6 .email{
+    width: 22rem;
+    height: 3.5rem;
+    border: 1px solid rgb(68, 68, 68);
+    border-radius: 3px;
+    background-color: transparent;
+    color: rgba(241, 241, 241, 0.621);
+}
+.description6 .button{
+    width: 15rem ;
+    height: 3.5rem ;
+    background-color: red;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
